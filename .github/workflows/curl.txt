@@ -1,0 +1,7 @@
+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
+
+curl -k -H "Accept: application/vnd.github.everest-preview+json" \
+    -H "Authorization: token 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" \
+    --request POST \
+    --data '{"event_type": "do-something", "client_payload": { "text": "a title"}}' \
+    https://api.github.com/repos/sansairama/dispatch/dispatches
